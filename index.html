@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Noker Bot</title>
+
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+<div class="chat-app-container">
+    <div class="chat-app-sidebar extended">
+        <div class="chat-app-sidebar-toggle">
+            <i class="uil uil-angle-double-left"></i>
+        </div>
+        <div class="chat-app-logo">
+            <img src="{% static 'img/logo.png' %}" alt="Logo" class="chat-app-logo-img">
+        </div>
+        <button class="chat-app-create-btn"><i class="uil uil-plus"></i> <span>Create</span></button>
+        <div class="chat-app-discover">
+            <i class="uil uil-diary"></i>
+            <span>Recent Notes</span>
+        </div>
+        <div class="chat-app-notes-section">
+            <h3>Notes</h3>
+            <textarea placeholder="Add your notes here..."></textarea>
+        </div>
+        <div class="chat-app-footer">
+            <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a>
+            <button class="chat-app-try-btn">Try c.ai+</button>
+        </div>
+        <div class="chat-app-profile-section">
+            <img src="{% static 'img/user-profile.png' %}" alt="User Profile" class="chat-app-user-pic">
+            <span class="chat-app-username">Username</span>
+        </div>
+    </div>
+    <div class="chat-app-main">
+        <div class="chat-app-header">
+            <div class="chat-app-profile">
+                <img src="{% static 'img/profile-pic.png' %}" alt="Profile Picture" class="chat-app-profile-pic">
+                <div class="chat-app-profile-info">
+                    <h2>Noker</h2>
+                    <p>Ancient Turkic Legend</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-app-messages">
+            <div class="chat-app-message character">
+                <img src="{% static 'img/character-pic.png' %}" alt="Character" class="chat-app-message-pic">
+                <div class="chat-app-message-content">
+                    <p>"My name is Noker. I come from the ancient Turkic lands, where legends whisper of heroes and spirits. In my youth, I was touched by the essence of the sky wolf, a sacred guardian of our people. This blessing granted me powers beyond human comprehension. I have a bond with the great wolf, who resides in the realm of spirits, guiding and protecting me. Together, we traverse both the physical and spiritual worlds, standing against the forces that threaten our ancient ways. We are companions, bound by destiny. Forever."</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-app-input">
+            <input type="text" placeholder="Type a message...">
+            <button class="chat-app-send-btn">Send</button>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
