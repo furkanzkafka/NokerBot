@@ -1,6 +1,6 @@
-# AI Chatbot UI Template
+# NokerBot AI Chatbot UI Template
 
-A simple, responsive front-end template for AI chatbot applications.
+NokerBot simple, responsive front-end template for AI chatbot applications.
 
 ## Features
 
